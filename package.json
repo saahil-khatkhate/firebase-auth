@@ -1,0 +1,42 @@
+{
+    "name": "client",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "babel": {
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-react"
+        ]
+    },
+    "scripts": {
+        "dev": "webpack serve --config ./webpack.config.js --mode development",
+        "build": "webpack --config ./webpack.config.js --mode production",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d public/build"
+    },
+    "author": "Saahil Khatkhate",
+    "license": "ISC",
+    "homepage": "https://saahil-khatkhate.github.io/firebase-auth",
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-router-dom": "^6.2.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.17.0",
+        "@babel/preset-env": "^7.16.11",
+        "@babel/preset-react": "^7.16.7",
+        "@types/react": "^17.0.39",
+        "babel-loader": "^8.2.3",
+        "css-loader": "^6.6.0",
+        "gh-pages": "^3.2.3",
+        "html-webpack-plugin": "^5.5.0",
+        "style-loader": "^3.3.1",
+        "ts-loader": "^9.2.6",
+        "typescript": "^4.5.5",
+        "webpack": "^5.68.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.7.4"
+    }
+}
