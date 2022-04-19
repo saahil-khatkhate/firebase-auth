@@ -1,0 +1,46 @@
+.loginWrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eeeeee;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #cccccc;
+    padding: 5vh;
+    border-radius: 10px;
+}
+
+.loginContainer input {
+    padding: 2vh 1.2vw;
+    background: transparent;
+    border: #777777 1px solid;
+    display: block;
+    margin-bottom: 2vh;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.loginContainer button {
+    padding: 2vh 1.2vw;
+    background: #444444;
+    border: none;
+    margin-bottom: 3vh;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.loginContainer .loginGoogle {
+    background: #4285f4;
+}
+
+.loginContainer a {
+    color: #4285f4;
+}
