@@ -3,3 +3,4 @@ node_modules
 build
 keys.ts
 *.log
+firebase.tsx
